@@ -5,6 +5,10 @@
     "Microsoft.NETCore.Platforms": "1.0.1-*",
     "xunit": "2.1.0"
   },
+    "compilationOptions": {
+    "warningsAsErrors": true,
+    "keyFile": "../../tools/Key.snk"
+  },
   "frameworks": {
     "dnxcore50": {
       "dependencies": {
